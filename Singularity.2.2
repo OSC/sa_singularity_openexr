@@ -10,7 +10,7 @@ From: ubuntu:18.04
 
 %post
     apt update
-    apg upgrade -y
+    apt upgrade -y
     DEBIAN_FRONTEND=noninteractive apt install -y --no-install-recommends \
         openexr-viewers
     apt autoclean
