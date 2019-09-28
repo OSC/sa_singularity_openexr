@@ -1,6 +1,6 @@
 # Singularity OpenEXR
 
-[![Singularity Hub](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/2500)[![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/3584)[![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 Singularity image for [OpenEXR](https://www.openexr.com/). It was built on top of the base Docker image [ubuntu](https://hub.docker.com/_/ubuntu)
 
@@ -17,7 +17,7 @@ sudo singularity build openexr.sif Singularity
 Instead of building it yourself you can download the pre-built image from [Singularity Hub](https://www.singularity-hub.org) with:
 
 ```sh
-singularity pull --name openexr.sif shub://ZQyou/sa_singularity_openexr
+singularity pull --name openexr.sif shub://OSC/sa_singularity_openexr
 ```
 
 ## Run
@@ -38,7 +38,4 @@ $ singularity exec openexr.sif exrdisplay rendertest_0001.exr
 
 ## License
 
-The code is available as open source under the terms of the [MIT License].
-
-[OpenEXR]: http://www.openexr.com/
-[MIT License]: http://opensource.org/licenses/MIT
+The code is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
